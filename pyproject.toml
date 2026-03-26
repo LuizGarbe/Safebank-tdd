@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "safebank-tdd-t"
+version = "0.1.0"
+description = "Usar para fazer teste"
+authors = ["luiz"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+requests5 = "1.2.3"
+skip = "^0.1.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
